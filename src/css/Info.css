@@ -1,4 +1,6 @@
-.title{
-    background-color: blueviolet;
+.title {
+    background-color: rgb(168, 96, 235);
     color: aliceblue;
+    padding: 10px 20px;
+    width: 600px;
 }

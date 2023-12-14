@@ -1,17 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Info from './components/Info';
+import logo from "./logo.svg";
+import "./App.css";
+import Info from "./components/Info";
 
 function App() {
-  return(
-    <div>
-      <Info a="b" name="Nguyen Van A" age="30" phone="0123456" />
-      {/* <Info  name="Nguyen Lam B" age="10" phone="02553457" />
-      <Info  name="Hoang Van Giang" age="20" phone="1235537" /> */}
-    </div>
-  )
-   
+    return (
+        <div>
+            <Info maSV="SV03" lop="TH06" name="Nguyen Van A" age="30" phone="012345645" />
+            <Info maSV="SV04" lop="VL09" name="Tran Thanh Hai" age="20" phone="077273119" />
+        </div>
+    );
 }
-
 
 export default App;
