@@ -1,13 +1,13 @@
-import "../css/Info.css"
+import React from "react";
+import "../css/Info.css";
 
-
-export default function Info(props){
-    const {name,phone,age}=props;
+export default function Info(props) {
+    const { name, maSV, lop } = props;
     return (
-        <div className="title">
-            <p>Name: {name}</p>
-            <p>Name: {age}</p>
-            <p>Name: {phone}</p>
+        <div>
+            <p>Ten: {name}</p>
+            <p>Ma sinh vien:{maSV}</p>
+            <p>Lop: {lop}</p>
         </div>
-    )
+    );
 }
