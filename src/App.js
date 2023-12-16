@@ -31,9 +31,11 @@ import Product from "./components/product/Product";
 
 export default function App() {
     return (
-        <Counter name="dhskjfhkj" age="12">
-            <h1>kjdhsfkjhaw</h1>
-            
-        </Counter>
+        <div>
+            {/* <Counter name="Trần Trung Hiếu" age="32">
+                <h1>PRODUCT</h1>
+            </Counter> */}
+            <Product />
+        </div>
     );
 }
